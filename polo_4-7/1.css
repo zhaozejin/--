@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 1600px;
+    background-image: url(./img/bg.png)
+}
+.box1{
+    width: 940px;
+    height: 1600px;
+    margin: 0px auto;
+}
+.header{
+    padding-top: 37px;
+    padding-bottom: 46px;
+}
+.header .logo{
+    margin-left: 15px;
+}
+.header .nav{
+    float: right;
+    
+}
+.header .nav li{
+	/*左浮动*/
+	float: left;
+	padding: 0 10px 8px;
+	border-left: 1px #d6d6d6 dotted;
+}
+
+.header .nav a{
+	color: #666;
+	font: bold 14px Georgia;
+	text-decoration: none;
+	vertical-align: 50%;
+}
+
+.header .nav a:hover{
+	color: #a5a4a4;
+	text-decoration: underline;
+}
+
+.header .nav p{
+	color: #b7b7b7;
+	font: 11px Tahoma;
+}
+.box1 .banner{
+    height: 356px;
+    background: url(./img/yinying.png) no-repeat bottom center;
+    position: relative;
+}
+.diandian{
+	position: absolute;
+	top: 314px;
+	left: 15px;
+}
+.diandian a{
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-left: 4px;
+	background: url(./img/baidian.png) no-repeat;
+}
+.diandian .active,
+.diandian a:hover{
+	background: url(./img/landian.png) no-repeat;
+}
+.diandian .activeafter:hover{
+	background: url(./img/baidian.png) no-repeat;
+}
+/* placeholder 表单文本框提示文字*/
+.content h1{
+	text-align: center;
+	font:  bold 24px Georgia;
+	padding:6px 0  20px;
+	background: url(./img/bg1.png) no-repeat bottom center;
+	margin-bottom: 30px;
+}
+.content .a{
+	width: 301.3px;
+	height: 435px;
+	float: left;
+	background-color: aqua;
+}
+.content .b{
+	width: 301.3px;
+	float: left;
+	font: bold 21px Georgia;
+	color: #11719e;
+}
+.content .b p{
+	color: #8c8c8c;
+	font:  12px Helveticaa;
+}
+.wenzi1{
+	margin-right: 18px;
+}
+.wenzi2{
+	margin-right: 18px;
+}
+.boder1{
+	margin-right: 18px;
+}
+.boder2{
+	margin-right: 18px;
+}
+.boder4{
+	margin-right: 18px;
+	height: 381px;
+}
+.boder5{
+	margin-right: 18px;
+	height: 381px;
+}

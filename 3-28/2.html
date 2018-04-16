@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display和visibility</title>
+    <style>
+    a{
+        background-color:aquamarine;
+         /*变成块元素 deisplay可以把行元素改成块元素*/
+         /*
+            display：inline；内联元素 
+            display:block; 块元素 
+            行内块，既可以设置宽高又不会独占一行：inline-block
+            none:不会占位置，隐藏元素不在页面显示
+         */
+         width: 100px;
+         height:100px;
+         
+    }
+    .a1{
+        background-color:green;
+        width: 100px;
+        height: 100px;
+        visibility: hidden;
+        /* 
+            visibility
+            属性：
+            visible 默认值，显示
+            hidden  隐藏，但依旧会占位
+
+         */
+    }
+    </style>
+</head>
+<body>
+    <a href="#">这是一个a标签</a>
+    <a href="#1" class="a1">这是另一个a标签</a>
+</body>
+</html>

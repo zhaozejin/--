@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定定位</title>
+    <style>
+        .box1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 190, 157);
+        position: fixed;
+        left: 0px;
+        top:0px;
+    }
+    /* 固定定位是一种特殊的 绝对定位，大部分特点都一样 */
+    /* 不同点：永远是根据浏览器原点来定位的 */
+    /* 固定定位会固定在屏幕的某个地方，不会根据滚动条滚动 */
+    /* IE6不支持定位，只能使用JS */
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 25, 179);
+    }
+    </style>
+</head>
+<body>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+</body>
+</html>

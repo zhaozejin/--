@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素的透明背景</title>
+    <style>
+    .box1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        opacity: 0.5;
+        filter:alpha(opacity=50)
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 190, 157);
+        opacity: 0.5;
+    }
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 25, 179);
+        opacity: 0.5;
+    }
+    </style>
+</head>
+<body>
+    <!-- opacity：1； -->
+    <!-- 在IE8及以下的版本不支持，
+        需要用：
+            filter:alpha(opacity=50) -->
+            <!-- 这个透明度用1-100支持 -->
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+</body>
+</html>

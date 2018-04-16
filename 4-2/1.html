@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: red ;
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(91, 41, 156) ;
+            position: relative;
+            left:200px;
+            top: 200px;
+            /* 相对于元素原来的位置来定位 */
+            /* 会使元素比文档流高一级 */
+            /* 相对定位不会改变元素性质，因为它还在文档流里  */
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(28, 165, 131) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航条</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 设置ul样式 */
+
+        .nav {
+            /* 去除项目符号 */
+            list-style: none;
+            background-color: rgb(102, 128, 255);
+            width: 1000px;
+            /* 设置居中 */
+            margin: 50px auto;
+            /* 解决高度塌陷 */
+            /* IE6中如果你为它指定了宽度，默认开启haslayout */
+            overflow: hidden;
+            zoom: 1;
+        }
+
+        .nav li {
+            float: left;
+            width: 25%;
+        }
+
+        .nav a {
+            /* 将a转换为块 */
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+            /* 去除下划线 */
+            text-decoration: none;
+            /* 加粗 */
+            font-weight: bold;
+            color: white;
+
+        }
+
+        /* 设置鼠标移入效果 */
+
+        .nav a:hover {
+            background-color: #c00;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li>
+            <a href="#">首页</a>
+        </li>
+        <li>
+            <a href="#">新闻</a>
+        </li>
+        <li>
+            <a href="#">联系</a>
+        </li>
+        <li>
+            <a href="#">关于</a>
+        </li>
+    </ul>
+</body>
+
+</html>

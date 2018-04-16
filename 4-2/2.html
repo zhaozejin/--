@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位</title>
+    <style>
+    .box1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 190, 157);
+        position: absolute;
+    }
+    /* 绝对定位，会使元素脱离文档流 */
+    /* 如果不设置偏移量位置是不会变化的 */
+    /* 坐标原点是相对于浏览器窗口原点的 */
+    /* 绝对定位是相对于离他最近的祖先元素的定位 */
+    /* 开启子元素的绝对定位都会开启父元素的相对定位 */
+    /* 绝对定位的元素也会是元素提升一个层级 */
+    /* 绝对定位是会改变元素性质的会是内联元素变成块元素 */
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 25, 179);
+    }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素的层级</title>
+    <style>
+            .box1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 190, 157);
+        position: absolute;
+        z-index: 1;
+
+    }
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(35, 25, 179);
+    }
+    /* 如果定位元素的层级一样，后面的会覆盖后面的 */
+    /* 可以使用属性 z-index 可以指定一个正整数，指定层级，数字越大，层级越高*/
+    /* 对于没有开启定位的元素不能使用z-index */
+    /* 父元素层级越高，也不会覆盖子元素 */
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

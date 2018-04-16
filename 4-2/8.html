@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景偏移与定位</title>
+    <style>
+    .box1{
+        width: 500px;
+        height: 500px;
+        margin: 50px auto;
+        background-color: aqua;
+        /* backgroug-pasition：x% y%;   设置默认开始位置  
+        我们动的是背景图片不是背景*/
+        /* 图片移出父元素就看不到了 */
+        /* background-attachment: fixed;   背景图片不随页面滚动
+        一般不设置给其他元素，只设定给body*/
+        background-attachment: fixed;
+    }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html>

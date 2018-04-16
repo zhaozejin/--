@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>强制类型转换-String</title>
+    <script>
+        // 主要转成 String Number Bool 类型
+        var a = 123;
+        var b = a.toString();
+        //1.调用tostring方法  是不会影响到原变量本身得用一个变量接受它的返回值
+        //object是不能调用tostring的
+        //2.调用String()函数 也不会影响变量本身
+        //object类型的也可以使用String函数转换
+        var c = String(a);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

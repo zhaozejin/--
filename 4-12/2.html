@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <script>
+        window.onload = function(){
+            var a = document.getElementById('v1');
+            var b = document.getElementById('v2');
+            var c = document.getElementById('se');
+            var od = document.getElementById('btn');
+        
+        od.onclick = function(){
+            var A = a.value;
+            var B = b.value;
+            var C = c.value;
+            if (isNaN(A) || isNaN(B)){
+                alert("请在框中输入数字")
+                return;
+            }
+            else{
+                if (A=="" || B=="") {
+                    alert("内容不能为空")
+                    return;
+                }
+                switch(C){
+                    case "+":
+                        alert((parseFloat(A)*100 + parseInt(B)*100)/100);
+                        return;
+                    case "-":
+                        alert((parseFloat(A)*100 - parseInt(B)*100)/100);
+                        return;
+                    case "*":
+                        alert((parseFloat(A)*100 )*( parseFloat(B)*100)/10000);
+                        return;
+                    case "/":
+                        alert((parseFloat(A)*100) * (parseFloat(B)*100));
+                        return;
+                }
+            }
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <span>计算机</span>
+    <input type="text" placeholder="请输入数字" id="v1">
+    <select id='se'>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" placeholder="请输入数字" id="v2">
+    <input type="button" value="计算" id='btn'>
+</body>
+</html>

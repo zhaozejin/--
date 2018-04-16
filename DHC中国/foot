@@ -1,0 +1,141 @@
+    <div class="a22">
+        <div class="b">
+            <div class="c1">
+                <a href="#">
+                    <img src="./image1/DHC.png" alt="DHC官网">
+                </a>
+            </div>
+            <div class="c2">
+                <p>上海蝶翠诗商业有限公司</p>
+            </div>
+            <div class="c3">
+                <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20111010165737638">
+                    <img class="d1" src="./image1/gs_icon.png">
+                </a>
+                <br>上海工商</div>
+            <div class="c4">
+                <a href="#">
+                    <img class="d2" src="./image1/wj_icon.png">
+                </a>
+                <br>上海网警110</div>
+            <div class="c5">
+                <a href="#">
+                    <img class="d3" src="./image1/zx_icon.png">
+                </a>
+                <br>网络社会征信网</div>
+            <div class="c6">
+                <p>企业营业执照
+                    <br>沪ICP备05035135</p>
+            </div>
+            <div class="c7">
+                <p>版权所有(C)2003-2022上海邮政信箱126-019(浦东局) 邮编:200126
+                    <br>DHC日本通信销售化妆品品牌NO.1 (品牌排名根据日本流通产业新闻2016年1月)</p>
+            </div>
+            <div class="c8">
+                <a href="#">
+                    <img src="./image1/mini_icon.png">
+                    <p>沪公网安备31010102003613号</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+.a22{
+    height: 201px;
+    background-color: #292929;
+    width: 1920px;
+    margin-top: 30px;
+    float: left;
+    border-right: 2px;
+}
+.a22 .b{
+    height: 160px;
+    width: 1200px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.a22 .c1{
+    float: left;
+}
+.a22 .c2{
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px
+}
+.a22 .c3{
+    float: left;
+    margin-left: 400px;
+    color: white;
+    font-size:small;
+}
+
+.a22 .c4{
+    float: left;
+    margin-left: 60px;
+    color: white;
+    font-size:small;
+}
+
+.a22 .c5{
+    float: left;
+    margin-left: 60px;
+    color: white;
+    font-size:small;
+}
+.a22 .d1{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.a22 .d2{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.a22 .d3{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.a22 .c6{
+    float: left;
+    color: white;
+    margin-top: 30px;
+}
+.a22 .c7{
+    float: left;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.a22 .c8{
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    text-decoration: none;
+    height: 45px;
+    width: 340px;
+    border: white 1px solid;
+    border-radius: 5px;
+    margin-top:20px;
+}
+.a22 .c8 img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.a22 .c8 p{
+    border-left: 1px solid white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 20px;
+    float: left;
+    font-size: 20px;
+    color: white;
+}
